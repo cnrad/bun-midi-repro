@@ -1,8 +1,11 @@
 # bun-midi-repro
 
 Steps taken:
+
 `bun i midi`
+
 `bun i --save-dev @types/midi`
+
 `bun run index.ts`
 
 Error:
@@ -50,3 +53,6 @@ error: Could not locate the bindings file. Tried:
 
 Bun v1.2.13 (macOS arm64)
 ```
+
+
+The `midi` package only works as expected if I remove lockfile/node_modules, and use a different package manager, e.g. `pnpm`.
