@@ -6,7 +6,7 @@ Steps taken:
 `bun run index.ts`
 
 Error:
-```
+```zsh
 ➜  bun-midi-repro git:(master) ✗ bun run index.ts
 121 |         throw e;
 122 |       }
