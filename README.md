@@ -1,5 +1,7 @@
 # bun-midi-repro
 
+Related: https://github.com/oven-sh/bun/issues/4290
+
 Steps taken:
 
 `bun i midi`
